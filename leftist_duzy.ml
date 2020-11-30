@@ -1,6 +1,6 @@
-(* test na wydajność drzew lewicowych wygenerowany automatycznie. 
- * dodaje 10000 losowych liczb od 1 do 1000, 
- * kazda 100 razy za pomoca funkcji `dodaj_kilka`. Ma 10028 linijek *)
+(* test na wydajność drzew lewicowych, wygenerowany automatycznie.
+ * dodaje 10000 losowych liczb od 1 do 1000, kazda 100 razy za pomoca 
+ * funkcji `dodaj_kilka`. Ma 10028 linijek, czas: od 10 do 20 sekund? *)
 open Leftist;; let q1 = empty;;
 
 
